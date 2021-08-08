@@ -5,6 +5,10 @@ In addition, the following are the references I used to create this repository w
 
 [NoiseBall](https://github.com/keijiro/NoiseBall)
 
+![Plane](https://user-images.githubusercontent.com/63334692/128618762-3e15db2a-1991-4aaa-ba92-b3a954a61802.PNG)
+
+![ICOSphere](https://user-images.githubusercontent.com/63334692/128618766-ba174fe4-4a2a-4a62-85ff-8a50a0ccd2ac.PNG)
+
 ## Environments
 ### Unity
 Unity 2021.1.9f1
@@ -19,3 +23,4 @@ This scriptable object is a data container that holds the mesh and the data it n
 
 ### Create Empty Object and Attach Mesh Rendere Component
 Create an empty object in the hierarchy and add a Renderer component to it that corresponds to the scriptable object.
+![Inspector](https://user-images.githubusercontent.com/63334692/128618737-4fa2843e-d02b-451d-a33d-cf879d9a3c0a.PNG)
