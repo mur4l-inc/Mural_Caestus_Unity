@@ -23,4 +23,5 @@ This scriptable object is a data container that holds the mesh and the data it n
 
 ### Create Empty Object and Attach Mesh Rendere Component
 Create an empty object in the hierarchy and add a Renderer component to it that corresponds to the scriptable object.
+<br>
 ![Inspector](https://user-images.githubusercontent.com/63334692/128618737-4fa2843e-d02b-451d-a33d-cf879d9a3c0a.PNG)
