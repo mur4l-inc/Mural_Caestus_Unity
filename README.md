@@ -18,4 +18,4 @@ ex) Create > Mural > MeshBuilder > PlaneMesh
 This scriptable object is a data container that holds the mesh and the data it needs.
 
 ### Create Empty Object and Attach Mesh Rendere Component
-
+Create an empty object in the hierarchy and add a Renderer component to it that corresponds to the scriptable object.
