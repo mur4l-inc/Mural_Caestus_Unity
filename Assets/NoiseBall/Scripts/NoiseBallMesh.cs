@@ -86,7 +86,9 @@ namespace NoisySphere
             _mesh.SetUVs(0, varray2);
             _mesh.SetUVs(1, varray3);
 
-            _mesh.SetIndices(vcache.MakeIndexArrayForSmoothMesh(), MeshTopology.Triangles, 0);
+            _mesh.subMeshCount = 2;
+            _mesh.SetIndices(vcache.MakeIndexArrayForFlatMesh(), MeshTopology.Triangles, 0);
+            _mesh.SetIndices(iarray, MeshTopology.Lines, 1);
 
             _mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 100);
             _mesh.Optimize();

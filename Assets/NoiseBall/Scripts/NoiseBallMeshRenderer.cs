@@ -47,6 +47,10 @@ namespace NoisySphere
         [SerializeField]
         Shader _lineShader;
 
+        [Space]
+        [SerializeField, ColorUsage(false, true, 0, 8, 0.125f, 3)]
+        Color _lineColor = Color.white;
+
         Material _surfaceMaterial;
         Material _lineMaterial;
         MaterialPropertyBlock _materialProperties;
@@ -71,6 +75,9 @@ namespace NoisySphere
 
             _noiseOffset += new Vector3(0.13f, 0.82f, 0.11f) * _noiseMotion * Time.deltaTime;
 
+            _lineMaterial.color = _lineColor;
+            _lineMaterial.SetFloat("_Radius", _radius * 1.05f);
+
             _surfaceMaterial.color = _surfaceColor;
             _surfaceMaterial.SetFloat("_Metallic", _metallic);
             _surfaceMaterial.SetFloat("_Glossiness", _smoothness);
@@ -83,6 +90,12 @@ namespace NoisySphere
             Graphics.DrawMesh(
                 _mesh.sharedMesh, transform.localToWorldMatrix,
                 _surfaceMaterial, 0, null, 0, _materialProperties,
+                _castShadows, _receiveShadows, transform
+            );
+
+            Graphics.DrawMesh(
+                _mesh.sharedMesh, transform.localToWorldMatrix,
+                _lineMaterial, 0, null, 1, _materialProperties,
                 _castShadows, _receiveShadows, transform
             );
         }
