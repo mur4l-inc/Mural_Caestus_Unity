@@ -12,3 +12,10 @@ Unity 2021.1.9f1
 None
 
 ## Usage
+### Create Scriptable Object
+Create the relevant scriptable object in the Project Window.
+ex) Create > Mural > MeshBuilder > PlaneMesh
+This scriptable object is a data container that holds the mesh and the data it needs.
+
+### Create Empty Object and Attach Mesh Rendere Component
+
