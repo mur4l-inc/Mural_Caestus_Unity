@@ -1,6 +1,6 @@
 {
-    "name": "com.mural-inc.mesh-builder",
-    "displayName": "Mural_MeshBuilder",
+    "name": "com.mural-inc.caestus",
+    "displayName": "Mural_Caestus",
     "version": "1.0.0",
     "unity": "2021.1",    
     "description": "Collection of components for generating mesh from vertex information.",

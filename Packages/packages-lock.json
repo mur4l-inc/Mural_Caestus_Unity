@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.mural-inc.mesh-builder": {
-      "version": "file:Mural_MeshBuilder",
+    "com.mural-inc.caestus": {
+      "version": "file:Mural_Caestus",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

@@ -32,7 +32,7 @@ namespace Mural.Caestus
                     ((IcosphereMesh)t).RebuildMesh();
         }
 
-        [MenuItem("Assets/Create/Mural/MeshBuilder/Icosphere Mesh")]
+        [MenuItem("Assets/Create/Mural/Caestus/Icosphere Mesh")]
         public static void CreateIcosphereMeshAsset()
         {
             // Make a proper path from the current selection.

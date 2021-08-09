@@ -47,7 +47,7 @@ namespace Mural.Caestus
             }
         }
 
-        [MenuItem("Assets/Create/Mural/MeshBuilder/Plane Mesh")]
+        [MenuItem("Assets/Create/Mural/Caestus/Plane Mesh")]
         public static void CreatePlaneMeshAsset()
         {
             var path = AssetDatabase.GetAssetPath(Selection.activeObject);
