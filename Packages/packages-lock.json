@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.mural-inc.mesh-builder": {
+      "version": "file:Mural_MeshBuilder",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.5.7",
       "depth": 0,
