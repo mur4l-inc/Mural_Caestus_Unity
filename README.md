@@ -11,6 +11,9 @@ In addition, the following are the references I used to create this repository w
 
 
 ## What's Caestus?
+Caestus is a Weapon in Dark Souls and Dark Souls Remastered.<br>
+The weapon augments one's bare hands with thick, studded leather.<br>
+The Caestus has a short reach, but quick cool down. Amount of damage inflicted is dependent on its wearer's strength."<br>
 ![Caestus_%28DSIII%29](https://user-images.githubusercontent.com/63334692/128684396-f898e1e4-7381-4c82-889a-5cd396fbffd7.png)
 
 ## Environments
