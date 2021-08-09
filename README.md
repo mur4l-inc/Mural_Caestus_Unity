@@ -15,6 +15,11 @@ Unity 2021.1.9f1
 ### Dependencies
 None
 
+## How To Install
+'''
+Test
+'''
+
 ## Usage
 ### Create Scriptable Object
 Create the relevant scriptable object in the Project Window.
