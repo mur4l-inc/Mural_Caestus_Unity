@@ -16,9 +16,18 @@ Unity 2021.1.9f1
 None
 
 ## How To Install
-'''
-Test
-'''
+Please Add to manifest.json
+```
+"com.mural-inc.mesh-builder": "https://{Your Access Token}:x-oauth-basic@github.com/mur4l-inc/MURAL_MeshBuilder_Unity.git?path=/Packages/Mural_MeshBuilder/",
+```
+In result, your manifest.json will become
+```
+{
+  "dependencies": {
+    "com.mural-inc.mesh-builder": "https://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:x-oauth-basic@github.com/mur4l-inc/MURAL_MeshBuilder_Unity.git?path=/Packages/Mural_MeshBuilder/",
+    ...
+  }
+```
 
 ## Usage
 ### Create Scriptable Object
