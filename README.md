@@ -18,13 +18,13 @@ None
 ## How To Install
 Please Add to manifest.json
 ```
-"com.mural-inc.caestus": "https://{Your Access Token}:x-oauth-basic@github.com/mur4l-inc/Mural_Caestus_Unity.git?path=/Packages/Mural_MeshBuilder/",
+"com.mural-inc.caestus": "https://{Your Access Token}:x-oauth-basic@github.com/mur4l-inc/Mural_Caestus_Unity.git?path=/Packages/Mural_Caestus/",
 ```
 In result, your manifest.json will become
 ```
 {
   "dependencies": {
-    "com.mural-inc.caestus": "https://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:x-oauth-basic@github.com/mur4l-inc/Mural_Caestus_Unity.git?path=/Packages/Mural_MeshBuilder/",
+    "com.mural-inc.caestus": "https://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:x-oauth-basic@github.com/mur4l-inc/Mural_Caestus_Unity.git?path=/Packages/Mural_Caestus/",
     ...
   }
 ```
