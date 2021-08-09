@@ -1,4 +1,4 @@
-# MURAL_MeshBuilder_Unity
+# Mural_Caestus_Unity
 This repository is a collection of components for generating mesh from vertex information. The generated mesh can be procedurally changed both in the editor and runtime.
 The vertex information of this component is organized in a class called VertexCache that stores the cache information of the vertex information, so it can be handled together with other effects.
 In addition, the following are the references I used to create this repository with great gratitude.
@@ -14,6 +14,20 @@ In addition, the following are the references I used to create this repository w
 Unity 2021.1.9f1
 ### Dependencies
 None
+
+## How To Install
+Please Add to manifest.json
+```
+"com.mural-inc.mesh-builder": "https://{Your Access Token}:x-oauth-basic@github.com/mur4l-inc/MURAL_MeshBuilder_Unity.git?path=/Packages/Mural_MeshBuilder/",
+```
+In result, your manifest.json will become
+```
+{
+  "dependencies": {
+    "com.mural-inc.mesh-builder": "https://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:x-oauth-basic@github.com/mur4l-inc/MURAL_MeshBuilder_Unity.git?path=/Packages/Mural_MeshBuilder/",
+    ...
+  }
+```
 
 ## Usage
 ### Create Scriptable Object
