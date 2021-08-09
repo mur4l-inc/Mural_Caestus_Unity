@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     public class PlaneBuilder
     {

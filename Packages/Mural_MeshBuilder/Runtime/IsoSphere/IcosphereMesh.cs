@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     public class IcosphereMesh : ScriptableObject
     {

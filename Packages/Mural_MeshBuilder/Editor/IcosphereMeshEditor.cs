@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.IO;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     [CustomEditor(typeof(IcosphereMesh))]
     public class IcosphereMeshEditor : Editor

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     public class PlaneMesh : ScriptableObject
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     [ExecuteInEditMode]
     public class IcoSphereMeshRenderer : MonoBehaviour

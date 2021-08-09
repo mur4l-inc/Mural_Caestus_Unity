@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     public class IcosphereBuilder
     {

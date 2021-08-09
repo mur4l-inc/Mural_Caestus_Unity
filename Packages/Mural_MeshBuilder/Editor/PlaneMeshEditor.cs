@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-namespace Mural.MeshBuilder
+namespace Mural.Caestus
 {
     [CustomEditor(typeof(PlaneMesh))]
     public class PlaneMeshEditor : Editor
